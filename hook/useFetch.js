@@ -15,7 +15,7 @@ const useFetch = (endpoint, query) => {
       "X-RapidAPI-Host": "jsearch.p.rapidapi.com",
     },
   };
-
+  // for the achievment
   const fetchData = async () => {
     setIsLoading(true);
     //Almaz changed
