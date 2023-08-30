@@ -18,6 +18,7 @@ const useFetch = (endpoint, query) => {
 
   const fetchData = async () => {
     setIsLoading(true);
+    //Almaz changed
     try {
       const response = await axios.request(options);
       setData(response.data.data);
